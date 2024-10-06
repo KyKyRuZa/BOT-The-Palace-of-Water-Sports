@@ -23,6 +23,16 @@ body{
     background-color: #003566;
     
 }
+/* @media screen and (max-width: 375px){
+    .container{
+        display: block;
+        margin-top: 80px;
+    }
+    #patchnote{
+        margin-top:35px;
+    }
+    
+} */
 @media screen and (max-width: 1080px){
     .container{
         display: block;
@@ -30,6 +40,10 @@ body{
     }
     #patchnote{
         margin-top:35px;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
     }
     
 }

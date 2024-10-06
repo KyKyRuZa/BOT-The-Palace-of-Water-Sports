@@ -14,5 +14,9 @@ body{
     .container{
         display: block;
         margin-top: 80px;
-    }   
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+    } 
 }

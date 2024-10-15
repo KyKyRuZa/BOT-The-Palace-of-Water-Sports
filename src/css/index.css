@@ -1,35 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
 body{
    font-family: "Golos Text", sans-serif;
-   text-align: center;
+}
+img{
+    animation: mover_img 2s;
+}
+.container{
+    animation: mover_text 2.8s; 
 }
 #logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     width: 155px;
     height: 185px;
 }
-
-@media (max-width: 1080px){
-    #logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30%;
-        width: 155px;
-        height: 185px;
-    }
-    h1{
-       font-size: 35px;
-    }
-    .btn{
-        width: 130px;
-        height: 50px;
-        font-size: 25px;
-        text-align: center;
-    }
+#screen{
+    text-align: center;
+}
+.screen-inactive{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    animation: screen_display 2s;
+    transition: opacity 2s, visibility 2s, transform 2s;
+}
+#cont{
+    margin-top: 50px;
+    display: none;
+}
+.cont{
+    animation: main_display 2s;
+}
+.container-fluid{
+    margin-left:20px;
+    margin-right: 20px;
+}
+#nav-inactive{
+    opacity: 0;
+}
+.nav-active{
+    animation: main_icons 5s;
 
 }
